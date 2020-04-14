@@ -248,7 +248,12 @@
   border-radius: 50%;
 }
 
-.chat__group img {
-  width: 20px;
-  height: 20px;
+.chat__group .friend__avatar {
+  width: 30px !important;
+  height: 30px;
+  margin: 0;
+}
+
+.chat__group {
+  margin-right: 15px;
 }
