@@ -1,3 +1,9 @@
+.friends .friends__bday {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #f7f7f7;
+}
+
 .friends .friends__plus {
   margin: 20px 0;
   padding: 20px 0px;
@@ -5,9 +11,15 @@
   border-bottom: 1px solid #f7f7f7;
 }
 
+.friends__bday .friends__title,
 .friends__plus .friends__title,
 .friends__list .friends__title {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.6;
   margin-bottom: 12px;
+}
+
+.friends__list .friend,
+.chats-list .chat {
+  margin-bottom: 30px;
 }
